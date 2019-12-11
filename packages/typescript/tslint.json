@@ -1,0 +1,42 @@
+{
+    "defaultSeverity": "error",
+    "extends": ["tslint:recommended"],
+    "jsRules": false,
+    "rules": {
+        "member-ordering": [true, { "order": [
+            "public-instance-field",
+            "public-static-field"
+        ]}],
+        "curly": [true, "ignore-same-line"],
+        "interface-name": [true, "never-prefix"],
+        "no-var-requires": false,
+        "no-require-imports": false,
+        "jsx-boolean-value": false,
+        "jsx-no-lambda": false,
+        "no-submodule-imports": false,
+        "object-literal-key-quotes": [true, "as-needed"],
+        "quotemark": [true, "single", "jsx-single"],
+        "no-empty": [true, "allow-empty-functions"],
+        "trailing-comma": [true],
+        "ordered-imports": [
+            true,
+            {
+                "import-sources-order": "any",
+                "named-imports-order": "case-insensitive"
+            }
+        ],
+        "variable-name": {
+            "options": ["allow-leading-underscore", "allow-pascal-case", "allow-snake-case"]
+        },
+        "no-shadowed-variable": false
+    },
+    "rulesDirectory": [
+        "../tslint/lib/rules"
+    ],
+    "linterOptions": {
+        "exclude": [
+            "node_modules",
+            "**/*.test.js"
+        ]
+    }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "eslint-config-willo-react",
+  "version": "1.0.0",
+  "description": "Willo ESLint react config",
+  "main": "index.js",
+  "repository": "https://bitbucket.org/willo32/eslint-config-willo-react",
+  "license": "MIT",
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^6.7.2"
+  },
+  "peerDependencies": {
+    "eslint": "^6.7.2"
+  },
+  "dependencies": {
+    "eslint-config-willo-base": "^1.0.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.17.0",
+    "eslint-plugin-react-hooks": "^2.3.0"
+  }
+}

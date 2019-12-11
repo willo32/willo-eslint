@@ -1,0 +1,13 @@
+{
+  "name": "willo-config",
+  "version": "1.0.0",
+  "description": "Willo ESLint configurations",
+  "main": "index.js",
+  "repository": "https://bitbucket.org/willo32/willo-config",
+  "author": "Software devel <software_devel@willo.com>",
+  "license": "MIT",
+  "private": false,
+  "devDependencies": {
+    "lerna": "^3.19.0"
+  }
+}

@@ -1,0 +1,9 @@
+{
+    extends: ['eslint-config-willo-base'],
+    rules: {
+        // disable max len for links
+        'max-len': ['error', 100, 2, {
+            ignoreUrls: true,
+        }]
+    }
+}
