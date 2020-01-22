@@ -14,7 +14,7 @@ module.exports = {
 
         // Disallow await inside of loops
         // https://eslint.org/docs/rules/no-await-in-loop
-        'no-await-in-loop': 'error',
+        'no-await-in-loop': 'off',
 
         // Disallow comparisons to negative zero
         // https://eslint.org/docs/rules/no-compare-neg-zero
