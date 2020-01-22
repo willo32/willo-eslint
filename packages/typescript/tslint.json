@@ -7,7 +7,7 @@
             "public-instance-field",
             "public-static-field"
         ]}],
-        "curly": [true, "ignore-same-line"],
+        "curly": true,
         "interface-name": [true, "never-prefix"],
         "no-var-requires": false,
         "no-require-imports": false,
