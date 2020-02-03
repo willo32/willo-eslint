@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-willo-react-native",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Willo ESLint react native config",
   "main": "index.js",
   "repository": "https://bitbucket.org/willo32/willo-config",
@@ -15,7 +15,7 @@
     "eslint": "^6.7.2"
   },
   "dependencies": {
-    "eslint-config-willo-react": "^1.0.0",
+    "eslint-config-willo-react": "^1.1.0",
     "eslint-plugin-react-native": "^3.8.1"
   }
 }
