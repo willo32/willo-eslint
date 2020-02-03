@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-willo-react",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "description": "Willo ESLint react config",
   "main": "index.js",
   "repository": "https://bitbucket.org/willo32/eslint-config-willo-react",
@@ -15,7 +15,7 @@
     "eslint": "^6.7.2"
   },
   "dependencies": {
-    "eslint-config-willo-base": "^1.1.0",
+    "eslint-config-willo-base": "^1.2.0",
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^2.3.0"
