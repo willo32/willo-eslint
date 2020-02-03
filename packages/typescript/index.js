@@ -1,7 +1,7 @@
 module.exports = {
     extends: [
-        'eslint-config-willo-base',
         'plugin:@typescript-eslint/recommended',
+        'eslint-config-willo-base',
         './rules/fix.js',
     ],
     parser: '@typescript-eslint/parser',
@@ -34,8 +34,16 @@ module.exports = {
         '@typescript-eslint/ban-ts-ignore': 0,
         '@typescript-eslint/no-unused-vars': 'error',
         '@typescript-eslint/no-var-requires': 0,
-        '@typescript-eslint/tslint/config': [2, {
-            lintFile: 'eslint-config-willo-typescript/tslint.json',
+        '@typescript-eslint/interface-name-prefix': [2, 'never'],
+        '@typescript-eslint/member-ordering': [2, {
+            default: [
+                'public-instance-field',
+                'public-static-field',
+            ]
         }],
+        // Allow requires
+        '@typescript-eslint/no-require-imports': 0,
+        // Allow empty
+        '@typescript-eslint/no-empty-interface': 0,
     },
 };
