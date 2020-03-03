@@ -130,6 +130,7 @@ module.exports = {
         'import/order': ['error', {
             groups: [['builtin', 'external', 'internal']],
             'newlines-between': 'always',
+            alphabetize: { order: 'asc', caseInsensitive: true }
         }],
 
         // Require a newline after the last import/require in a group
