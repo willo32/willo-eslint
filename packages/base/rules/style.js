@@ -129,7 +129,7 @@ module.exports = {
             'error',
             4,
             {
-                SwitchCase: 0,
+                SwitchCase: 1,
                 CallExpression: { arguments: 'first' },
                 FunctionExpression: { parameters: 'first' },
                 FunctionDeclaration: { parameters: 'first' },
