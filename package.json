@@ -7,6 +7,12 @@
   "author": "Software devel <software_devel@willo.com>",
   "license": "MIT",
   "private": false,
+  "scripts": {
+    "lint": "lerna run lint",
+    "build": "lerna run build",
+    "publish": "lerna publish",
+    "bootstrap": "lerna bootstrap"
+  },
   "devDependencies": {
     "lerna": "^3.19.0"
   }

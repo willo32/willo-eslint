@@ -129,7 +129,7 @@ module.exports = {
             'error',
             4,
             {
-                SwitchCase: 0,
+                SwitchCase: 1,
                 CallExpression: { arguments: 'first' },
                 FunctionExpression: { parameters: 'first' },
                 FunctionDeclaration: { parameters: 'first' },
@@ -311,7 +311,7 @@ module.exports = {
         'no-negated-condition': 'off',
 
         // disallow nested ternary expressions
-        'no-nested-ternary': 'off',
+        'no-nested-ternary': 'error',
 
         // disallow use of the Object constructor
         'no-new-object': 'error',
@@ -324,14 +324,6 @@ module.exports = {
         // https://eslint.org/docs/rules/no-restricted-syntax
         'no-restricted-syntax': [
             'error',
-            {
-                selector: 'ForInStatement',
-                message: 'for..in loops iterate over the entire prototype chain, which is virtually never what you want. Use Object.{keys,values,entries}, and iterate over the resulting array.',
-            },
-            {
-                selector: 'ForOfStatement',
-                message: 'iterators/generators require regenerator-runtime, which is too heavyweight for this guide to allow them. Separately, loops should be avoided in favor of array iterations.',
-            },
             {
                 selector: 'LabeledStatement',
                 message: 'Labels are a form of GOTO; using them makes code confusing and hard to maintain and understand.',

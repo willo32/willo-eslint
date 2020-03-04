@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-willo-typescript",
-  "version": "1.0.0",
+  "version": "1.2.1",
   "description": "Willo ESLint typescript config",
   "main": "index.js",
   "repository": "https://bitbucket.org/willo32/eslint-config-willo-typescript",
@@ -9,13 +9,12 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "eslint": "^6.7.2",
-    "eslint-config-willo-base": "^1.0.0"
+    "eslint": "^6.7.2"
   },
   "dependencies": {
     "@typescript-eslint/eslint-plugin": "^2.10.0",
-    "@typescript-eslint/eslint-plugin-tslint": "^2.10.0",
     "@typescript-eslint/parser": "^2.10.0",
+    "eslint-config-willo-base": "^1.2.1",
     "tslint": "^5.20.1",
     "typescript": "^3.7.2"
   }

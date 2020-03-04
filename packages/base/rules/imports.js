@@ -127,7 +127,11 @@ module.exports = {
         // ensure absolute imports are above relative imports and that unassigned imports are ignored
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
         // TODO: enforce a stricter convention in module import order?
-        'import/order': ['error', { groups: [['builtin', 'external', 'internal']] }],
+        'import/order': ['error', {
+            groups: [['builtin', 'external', 'internal']],
+            'newlines-between': 'always',
+            alphabetize: { order: 'asc', caseInsensitive: true }
+        }],
 
         // Require a newline after the last import/require in a group
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/newline-after-import.md
@@ -192,7 +196,7 @@ module.exports = {
 
         // This rule enforces that all exports are declared at the bottom of the file.
         // https://github.com/benmosher/eslint-plugin-import/blob/98acd6afd04dcb6920b81330114e146dc8532ea4/docs/rules/exports-last.md
-        'import/exports-last': ['error', 'always'],
+        'import/exports-last': 'error',
 
         // Reports when named exports are not grouped together in a single export declaration
         // or when multiple assignments to CommonJS module.exports or exports object are present

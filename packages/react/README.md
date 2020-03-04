@@ -5,7 +5,7 @@ ESLint plugin to enforce Willo coding rules for React
 ## Installation
 
 ```sh
-$ yarn add --dev eslint-willo-config-react
+$ yarn add --dev eslint-config-willo-react
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ $ yarn add --dev eslint-willo-config-react
 
 ```js
 module.exports = {
-    extends: ['eslint-willo-config-react'],
+    extends: ['eslint-config-willo-react'],
     rules: {
         // My Rules
     },
