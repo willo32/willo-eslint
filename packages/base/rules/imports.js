@@ -128,7 +128,7 @@ module.exports = {
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/order.md
         // TODO: enforce a stricter convention in module import order?
         'import/order': ['error', {
-            groups: [['builtin', 'external', 'internal']],
+            groups: ['builtin', 'external', ['internal', 'sibling', 'parent', 'index']],
             'newlines-between': 'always',
             alphabetize: { order: 'asc', caseInsensitive: true }
         }],
