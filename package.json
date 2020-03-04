@@ -9,7 +9,9 @@
   "private": false,
   "scripts": {
     "lint": "lerna run lint",
-    "publish": "lerna publish"
+    "build": "lerna run build",
+    "publish": "lerna publish",
+    "bootstrap": "lerna bootstrap"
   },
   "devDependencies": {
     "lerna": "^3.19.0"
