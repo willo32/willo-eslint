@@ -19,11 +19,11 @@ jobs:
           command: yarn run build
       - run:
           name: Publish packages
-          command: yarn run publish from-git --yes
+          command: yarn run publish from-package --yes
 
 workflows:
   version: 2
-  tapi:
+  willo-eslint:
     jobs:
       - publish:
           filters:
