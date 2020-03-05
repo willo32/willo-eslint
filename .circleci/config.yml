@@ -1,0 +1,28 @@
+version: 2
+
+jobs:
+  lint:
+    working_directory: ~/willo-eslint
+    docker:
+      - image: circleci/node:latest
+    steps:
+      - checkout
+
+      - run:
+          name: Installing dependencies
+          command: yarn
+      - run:
+          name: Set up packages dependencies
+          command: yarn run bootstrap
+      - run:
+          name: Build packages
+          command: yarn run build
+      - run:
+          name: Run lint
+          command: yarn run lint
+
+workflows:
+  version: 2
+  willo-eslint:
+    jobs:
+      - lint
