@@ -1,7 +1,7 @@
 version: 2
 
 jobs:
-  publish:
+  lint:
     working_directory: ~/willo-eslint
     docker:
       - image: circleci/node:latest
@@ -18,14 +18,11 @@ jobs:
           name: Build packages
           command: yarn run build
       - run:
-          name: Publish packages
-          command: yarn run publish from-package --yes
+          name: Run lint
+          command: yarn run lint
 
 workflows:
   version: 2
   willo-eslint:
     jobs:
-      - publish:
-          filters:
-            branches:
-              only: master
+      - lint
