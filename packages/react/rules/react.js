@@ -43,7 +43,7 @@ module.exports = {
 
         // Forbid certain propTypes (any, array, object)
         // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/forbid-prop-types.md
-        'react/forbid-prop-types': 'off',
+        'react/forbid-prop-types': 'error',
 
         // Forbid certain props on DOM Nodes
         // https://github.com/yannickcr/eslint-plugin-react/blob/843d71a432baf0f01f598d7cf1eea75ad6896e4b/docs/rules/forbid-dom-props.md
