@@ -10,13 +10,7 @@ jobs:
 
       - run:
           name: Installing dependencies
-          command: yarn
-      - run:
-          name: Set up packages dependencies
-          command: yarn run bootstrap
-      - run:
-          name: Build packages
-          command: yarn run build
+          command: yarn && yarn --cwd "./packages/base" && yarn --cwd "./packages/react" && yarn --cwd "./packages/react-native" && yarn --cwd "./packages/typescript"
       - run:
           name: Run lint
           command: yarn run lint
