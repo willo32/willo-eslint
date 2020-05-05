@@ -21,10 +21,10 @@ module.exports = {
             node: {
                 extensions: [
                     '.js', '.jsx', '.json',
-                    '.ts', '.tsx', '.native.js', '.d.ts'
-                ]
-            }
-        }
+                    '.ts', '.tsx', '.native.js', '.d.ts',
+                ],
+            },
+        },
     },
     plugins: [
         '@typescript-eslint',
@@ -51,7 +51,7 @@ module.exports = {
                 'private-method', // = ['private-static-method', 'private-instance-method'])
                 'protected-method', // = ['protected-static-method', 'protected-instance-method'])
                 'public-method', // = ['public-static-method', 'public-instance-method'])
-            ]
+            ],
         }],
         // Allow requires
         '@typescript-eslint/no-require-imports': 0,
