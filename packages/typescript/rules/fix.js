@@ -3,12 +3,12 @@ module.exports = {
         'no-undef': 'off',
         'import/extensions': [
             'error', 'ignorePackages', {
-                'js': 'never',
-                'mjs': 'never',
-                'jsx': 'never',
-                'ts': 'never',
-                'tsx': 'never',
-            }
+                js: 'never',
+                mjs: 'never',
+                jsx: 'never',
+                ts: 'never',
+                tsx: 'never',
+            },
         ],
     },
 };
