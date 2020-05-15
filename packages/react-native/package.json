@@ -9,10 +9,10 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^7.0.0"
   },
   "peerDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^7.0.0"
   },
   "dependencies": {
     "eslint-config-willo-react": "^1.2.2",
