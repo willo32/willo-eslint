@@ -9,15 +9,15 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^7.0.0"
   },
   "peerDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^7.0.0"
   },
   "dependencies": {
     "eslint-config-willo-base": "^1.2.2",
     "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.17.0",
-    "eslint-plugin-react-hooks": "^2.3.0"
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.2"
   }
 }
