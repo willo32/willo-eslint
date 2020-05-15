@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-willo-base",
-  "version": "1.2.2",
+  "version": "1.3.0",
   "description": "Willo ESLint base JS config",
   "main": "index.js",
   "repository": "https://bitbucket.org/willo32/willo-config",
