@@ -9,10 +9,10 @@
     "lint": "eslint ."
   },
   "devDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^7.0.0"
   },
   "peerDependencies": {
-    "eslint": "^6.7.2"
+    "eslint": "^7.0.0"
   },
   "dependencies": {
     "confusing-browser-globals": "^1.0.9",
