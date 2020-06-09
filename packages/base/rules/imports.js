@@ -73,7 +73,7 @@ module.exports = {
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-extraneous-dependencies.md
         // paths are treated both as absolute paths, and relative to process.cwd()
         'import/no-extraneous-dependencies': ['error', {
-            devDependencies: ['**/__tests__/*.js'],
+            devDependencies: ['**/__tests__/*.{js,ts}'],
             optionalDependencies: false,
         }],
 
