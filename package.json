@@ -13,6 +13,9 @@
     "publish": "lerna publish",
     "bootstrap": "lerna bootstrap"
   },
+  "publishConfig": {
+    "registry": "https://willo-598495826827.d.codeartifact.us-east-2.amazonaws.com/npm/internal-willo/"
+  },
   "devDependencies": {
     "lerna": "^3.19.0"
   }
