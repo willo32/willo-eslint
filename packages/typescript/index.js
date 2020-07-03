@@ -33,6 +33,7 @@ module.exports = {
         '@typescript-eslint/ban-ts-ignore': 0,
         '@typescript-eslint/no-unused-vars': 'error',
         '@typescript-eslint/no-var-requires': 0,
+        '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/interface-name-prefix': [2, 'never'],
         '@typescript-eslint/member-ordering': [2, {
             default: [
