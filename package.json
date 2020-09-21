@@ -11,7 +11,7 @@
     "lint": "lerna run lint",
     "build": "lerna run build",
     "publish": "lerna publish",
-    "bootstrap": "lerna bootstrap",
+    "bootstrap": "yarn clean && lerna exec yarn && lerna link",
     "clean": "lerna clean -y"
   },
   "devDependencies": {
