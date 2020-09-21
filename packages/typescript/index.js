@@ -21,10 +21,10 @@ module.exports = {
             node: {
                 extensions: [
                     '.js', '.jsx', '.json',
-                    '.ts', '.tsx', '.native.js', '.d.ts'
-                ]
-            }
-        }
+                    '.ts', '.tsx', '.native.js', '.d.ts',
+                ],
+            },
+        },
     },
     plugins: [
         '@typescript-eslint',
@@ -33,6 +33,7 @@ module.exports = {
         '@typescript-eslint/ban-ts-ignore': 0,
         '@typescript-eslint/no-unused-vars': 'error',
         '@typescript-eslint/no-var-requires': 0,
+        '@typescript-eslint/no-non-null-assertion': 'off',
         '@typescript-eslint/interface-name-prefix': [2, 'never'],
         '@typescript-eslint/member-ordering': [2, {
             default: [
@@ -51,7 +52,7 @@ module.exports = {
                 'private-method', // = ['private-static-method', 'private-instance-method'])
                 'protected-method', // = ['protected-static-method', 'protected-instance-method'])
                 'public-method', // = ['public-static-method', 'public-instance-method'])
-            ]
+            ],
         }],
         // Allow requires
         '@typescript-eslint/no-require-imports': 0,
