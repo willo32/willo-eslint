@@ -11,9 +11,10 @@
     "lint": "lerna run lint",
     "build": "lerna run build",
     "publish": "lerna publish",
-    "bootstrap": "lerna bootstrap"
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean -y"
   },
   "devDependencies": {
-    "lerna": "^3.19.0"
+    "lerna": "^3.22.1"
   }
 }
