@@ -397,20 +397,20 @@ escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
-eslint-config-willo-base@^1.3.3:
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/eslint-config-willo-base/-/eslint-config-willo-base-1.3.3.tgz#ec3640680b5b261752911196ea98f80f0c666a7b"
-  integrity sha512-2V3an162v8dNwG3JMRH3IWftG+Zj9zU15E7GrJiHOrWpBpe88IFDg96Cl3dyOTN8GkwUAy0iMpP0kSWGPeQZdA==
+eslint-config-willo-base@^1.3.4:
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/eslint-config-willo-base/-/eslint-config-willo-base-1.3.4.tgz#9155e89b1e9f4197bf6ef9dab995c2f10be4299b"
+  integrity sha512-9dTOQvRBdmsllvD5zndr4Bdcm8p7HMkRi0aSEOx9cWeiGUlw5cq4mq079KXCIkyF3Z6RGszOlXdyPxQu6vdKbA==
   dependencies:
     confusing-browser-globals "^1.0.9"
-    eslint-plugin-import "^2.20.2"
+    eslint-plugin-import "^2.22.1"
 
-eslint-config-willo-react@^1.3.3:
-  version "1.3.3"
-  resolved "https://registry.yarnpkg.com/eslint-config-willo-react/-/eslint-config-willo-react-1.3.3.tgz#56fe35d729ae01009b99c0e06155c81bbb260304"
-  integrity sha512-/1vEA/pEBaH5vyY8s/SPWSvKAwsjhy8jIJwRJozwpfpBj7Y0wYwMG78WLJvxQ3Q+fsfgvLkq4bPCv2UfMDabRQ==
+eslint-config-willo-react@^1.3.4:
+  version "1.3.4"
+  resolved "https://registry.yarnpkg.com/eslint-config-willo-react/-/eslint-config-willo-react-1.3.4.tgz#ff0195f6a088deecb4c6532a39cda6d30462fd79"
+  integrity sha512-rRBfjiQenNrUlGEbpXtaOp3ba1WNkkmWEsh8ysaouS5QIKTsSw8ycCwgO6EzI4BmmK+NH5bsBUHJvoZ8Vbn1Mg==
   dependencies:
-    eslint-config-willo-base "^1.3.3"
+    eslint-config-willo-base "^1.3.4"
     eslint-plugin-jsx-a11y "^6.2.3"
     eslint-plugin-react "^7.20.0"
     eslint-plugin-react-hooks "^4.0.2"
@@ -431,7 +431,7 @@ eslint-module-utils@^2.6.0:
     debug "^2.6.9"
     pkg-dir "^2.0.0"
 
-eslint-plugin-import@^2.20.2:
+eslint-plugin-import@^2.22.1:
   version "2.22.1"
   resolved "https://registry.yarnpkg.com/eslint-plugin-import/-/eslint-plugin-import-2.22.1.tgz#0896c7e6a0cf44109a2d97b95903c2bb689d7702"
   integrity sha512-8K7JjINHOpH64ozkAhpT3sd+FswIZTfMZTjdx052pnWrgRCVfp8op9tbjpAk3DdUeI/Ba4C8OjdC0r90erHEOw==
