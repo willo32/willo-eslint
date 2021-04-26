@@ -10,7 +10,7 @@
   "scripts": {
     "lint": "lerna run lint",
     "build": "lerna run build",
-    "version": "lerna version --no-private",
+    "version": "lerna version --force-publish",
     "publish": "lerna publish -y from-package",
     "bootstrap": "yarn clean && lerna exec yarn && lerna link",
     "clean": "lerna clean -y"
