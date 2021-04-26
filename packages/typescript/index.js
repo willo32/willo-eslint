@@ -34,7 +34,17 @@ module.exports = {
         '@typescript-eslint/no-unused-vars': 'error',
         '@typescript-eslint/no-var-requires': 0,
         '@typescript-eslint/no-non-null-assertion': 'off',
-        '@typescript-eslint/interface-name-prefix': [2, 'never'],
+        '@typescript-eslint/naming-convention': [
+            'error',
+            {
+                selector: 'interface',
+                format: ['PascalCase'],
+                custom: {
+                    regex: '^I[A-Z]',
+                    match: false,
+                },
+            },
+        ],
         '@typescript-eslint/member-ordering': [2, {
             default: [
                 // Index signature
