@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Willo ESLint configurations",
   "main": "index.js",
-  "repository": "https://bitbucket.org/willo32/willo-config",
+  "repository": "https://github.com/willo32/willo-eslint",
   "author": "Software devel <software_devel@willo.com>",
   "license": "MIT",
   "private": false,
@@ -11,7 +11,7 @@
     "lint": "lerna run lint",
     "build": "lerna run build",
     "publish": "lerna publish",
-    "bootstrap": "lerna bootstrap",
+    "bootstrap": "yarn clean && lerna exec yarn && lerna link",
     "clean": "lerna clean -y"
   },
   "devDependencies": {
