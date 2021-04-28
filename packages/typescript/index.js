@@ -68,5 +68,8 @@ module.exports = {
         '@typescript-eslint/no-require-imports': 0,
         // Allow empty
         '@typescript-eslint/no-empty-interface': 0,
+        // Override the base rule 'no-shadow' which causes false positives on Typescript
+        'no-shadow': 'off',
+        '@typescript-eslint/no-shadow': 'error',
     },
 };
