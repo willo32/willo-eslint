@@ -2,7 +2,6 @@ module.exports = {
     extends: [
         'plugin:@typescript-eslint/recommended',
         'eslint-config-willo-base',
-        './rules/fix.js',
     ],
     parser: '@typescript-eslint/parser',
     parserOptions: {
@@ -71,5 +70,16 @@ module.exports = {
         // Override the base rule 'no-shadow' which causes false positives on Typescript
         'no-shadow': 'off',
         '@typescript-eslint/no-shadow': 'error',
+        // Disable 'no-undef' rule which causes false positives on Typescript
+        'no-undef': 'off',
+        'import/extensions': [
+            'error', 'ignorePackages', {
+                js: 'never',
+                mjs: 'never',
+                jsx: 'never',
+                ts: 'never',
+                tsx: 'never',
+            },
+        ],
     },
 };
