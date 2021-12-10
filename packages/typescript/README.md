@@ -1,11 +1,11 @@
-# eslint-willo-config-typescript
+# eslint-config-willo-typescript
 
 ESLint plugin to enforce Willo coding rules for Typescript projects
 
 ## Installation
 
 ```sh
-$ yarn add --dev eslint-willo-config-typescript
+$ yarn add --dev eslint-config-willo-typescript
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ $ yarn add --dev eslint-willo-config-typescript
 
 ```js
 module.exports = {
-    extends: ['eslint-willo-config-typescript'],
+    extends: ['eslint-config-willo-typescript'],
     parserOptions: {
         project: __dirname + '/tsconfig.json',
     },
