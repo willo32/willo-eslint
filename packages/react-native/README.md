@@ -1,11 +1,11 @@
-# eslint-willo-config-react-native
+# eslint-config-willo-react-native
 
 ESLint plugin to enforce Willo coding rules for React Native
 
 ## Installation
 
 ```sh
-$ yarn add --dev eslint-willo-config-react-native
+$ yarn add --dev eslint-config-willo-react-native
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ $ yarn add --dev eslint-willo-config-react-native
 
 ```js
 module.exports = {
-    extends: ['eslint-willo-config-react-native'],
+    extends: ['eslint-config-willo-react-native'],
     rules: {
         // My Rules
     },
