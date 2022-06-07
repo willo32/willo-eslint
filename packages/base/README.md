@@ -1,11 +1,11 @@
-# eslint-willo-config-base
+# eslint-config-willo-base
 
 ESLint plugin to enforce Willo coding rules for ES6
 
 ## Installation
 
 ```sh
-$ yarn add --dev eslint-willo-config-base
+$ yarn add --dev eslint-config-willo-base
 ```
 
 ## Usage
@@ -14,7 +14,7 @@ $ yarn add --dev eslint-willo-config-base
 
 ```js
 module.exports = {
-    extends: ['eslint-willo-config-base'],
+    extends: ['eslint-config-willo-base'],
     rules: {
         // My Rules
     },

@@ -1,4 +1,4 @@
-# eslint-willo-config-react
+# eslint-config-willo-react
 
 ESLint plugin to enforce Willo coding rules for React
 
